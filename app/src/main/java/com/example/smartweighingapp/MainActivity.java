@@ -1,7 +1,6 @@
 package com.example.smartweighingapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.graphics.Typeface;
@@ -479,6 +478,26 @@ public class MainActivity extends AppCompatActivity {
             //mBluetoothStatus.setText("Bluetooth enabled");
 
             Toast.makeText(getApplicationContext(),"Bluetooth turned on",Toast.LENGTH_SHORT).show();
+
+
+            //Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
+            //startActivity(enableBtIntent);
+
+            /*Set<BluetoothDevice> pairedDevices = mBTAdapter.getBondedDevices();
+            // If there are paired devices
+            if (pairedDevices.size() > 0) {
+                // Loop through paired devices
+                for (BluetoothDevice device : pairedDevices) {
+
+
+                    Log.e("Mac Addressess", "are:  " + mBTAdapter.getRemoteDevice(device.getAddress()));
+                    //BluetoothDevice device = mBTAdapter.getRemoteDevice(address);
+                    String macAddress = android.provider.Settings.Secure.getString(mContext.getContentResolver(), "bluetooth_address");
+
+
+                }
+            }*/
+
 
         }
         else{
