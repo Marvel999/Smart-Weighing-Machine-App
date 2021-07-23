@@ -1,52 +1,62 @@
-# Smart Weighing Machine App
+<!--- Heading--->
+# Weather App
+<!---About-->
+This is a simple weather App. Which displays your current Temperature and Location. This app is compatible in Android SDK-21.
+<!---screenshot--->
+
+<!---Techstack--->
+## Techstack
+1. kotlin
+2. Android
+3. MVVM
+4. LiveData
+5. Retrofit
+6. Google play services
+7. Moshi
+8. Coroutines
+9. WeatherStack (Weather API)
+
+<!---Project Setup--->
+## Project Setup
+
+#### Project Requirements
+1. Android Studio 4.2 Beta 6
+2. Kotlin 1.4.30
+
+<!---Feature--->
+## Feature
+1. Featch temperature of your current location using apixu weather API(Now change into weatherstack) [Know More](https://apidashboard.io/companies/apixu-weather)
+2. For location I am using fused location manager.
+
+<!-- Assumptions-->
+## Assumptions
+1. I am Assuming the app will use in potraite mode only.
+2. I am Assuming that User want to seen only his current location(state)
+3. I am showing Error Massage in Toast so It is easy for code review.
+4. I am Assuming that user strickly have to give there location permission.
+
+<!-- Testcase--->
+
+## Testcase Cover
+- [x] Check internet
+- [x] Server Error
+- [x] Location permission denie
+- [x] Error Comes In location fetching.
+- [x] Enable GPS
+
+## TestCase Not cove due to time constrain.
+1. Aeroplan mode Location fetching
+2. Unit tests for codes
+3. API_KEY Security
+
+## What is more to improve in codebase.
+1. Some location calls are depricated and I am using that beacuse of time constrain.
+2. Beacuse In this project have only one Fragment so we added fragment statically but can use dynamic fragment transaction(could be Navigation component).  
 
 
-<p align="center">
-  <img 
-       width="700"
-       height="500"
-   src="https://user-images.githubusercontent.com/43094705/80819816-59e95880-8bf3-11ea-9759-84fdd1515c7d.png">
-</p>
 
 
-## Objective
-
-This Android App is Made For Reducing Electronic waste(In world many of weighing machine are replace due to broken display and Moblie phones are replace due to the legging or many of technical issue so we are combine that for Reducing technical waste),In this App We can reset machine,and change modes and maymore thing The app is only connect to the device due to spacial Bluetooth(HC-05) and This app is program for only that bluetooth.In this Android App I learn about How to use Smartphone Sensor effectively And many More Things......
-
-## Next Version of Devlopment Cover These Features 
-1. Share Weighing Machine data to the specific user to the server.So that make transparency between the user and shopkeeper to make more comfortable online services.
-
-2. Server devlopment for App.
 
 
-## How to contribute?
-
-1. Fork the repository 
-2. Do the desired changes (add/delete/modify)
-3. Make a pull request
-
-## What I'll be doing with this repository
-
-Constructive criticisms or code reviews of any kind are very much welcome.
-
-If you have any questions about the App you can find here, feel free to contact me **manishjobs1999@gmail.com**.
-
-
- LICENCE
------
-
- Copyright 2019 Manish
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
 
 
