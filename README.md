@@ -30,28 +30,28 @@ This is a simple weather App. Which displays your current Temperature and Locati
 
 <!-- Assumptions-->
 ## Assumptions
-1. I am Assuming the app will use in potraite mode only.
-2. I am Assuming that User want to seen only his current location(state)
-3. I am showing Error Massage in Toast so It is easy for code review.
-4. I am Assuming that user strickly have to give there location permission.
+1. I am assuming the app will use in portrait mode only.
+2. I am assuming that user want to seen only his current location(state)
+3. I am showing error message in Toast so It is easy for code review.
+4. I am assuming that user strickly have to give there location permission.
 
 <!-- Testcase--->
 
 ## Testcase Cover
 - [x] Check internet
 - [x] Server Error
-- [x] Location permission denie
-- [x] Error Comes In location fetching.
+- [x] Location permission deny
+- [x] Proper Location fetching.
 - [x] Enable GPS
 
 ## TestCase Not cove due to time constrain.
-1. Aeroplan mode Location fetching
+1. Aeroplan mode location fetching
 2. Unit tests for codes
 3. API_KEY Security
 
 ## What is more to improve in codebase.
 1. Some location calls are depricated and I am using that beacuse of time constrain.
-2. Beacuse In this project have only one Fragment so we added fragment statically but can use dynamic fragment transaction(could be Navigation component).  
+2. Beacuse in this project have only one Fragment so we added fragment statically but can use dynamic fragment transaction(could be Navigation component).  
 
 
 
